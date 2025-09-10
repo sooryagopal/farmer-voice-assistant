@@ -13,7 +13,7 @@ __pycache__/
 
 # Environment variables
 # This file contains sensitive API keys and should not be committed
-/backend/.env
+.env
 
 # --- Frontend ---
 # Node.js dependencies
