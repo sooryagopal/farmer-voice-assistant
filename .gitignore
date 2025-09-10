@@ -1,0 +1,29 @@
+# --- Python & Backend ---
+backend/venv/
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled model/data files
+backend/models/*.pkl
+backend/data/*.csv
+
+# Vosk model (if not needed in repo, otherwise remove this line)
+# backend/models/vosk-model-small-en-us-0.15/
+
+# Environment variables
+.env
+backend/.env
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+
+# --- System/IDE files ---
+.DS_Store
+.vscode/
+*.log
+npm-debug.log*
+yarn-debug.log*
